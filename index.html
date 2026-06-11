@@ -1,0 +1,413 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALI_PAHADI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="heading">
+    <h1>" KALI PAHADI "</h1>
+    <br>
+    <br>
+    <br>
+    <p id="entery">entry detactive<span>...</span></p>
+    <p id="h-line1" class="home-page">Hiddden From The World.</p>
+    <br>
+    
+
+    <p id="h-line2" class="home-page">known Only By The Choosen.</p>
+    <br>
+    <br>
+    <br>
+    <p id="h-line3" class="home-page">Some Places are Not Found.</p>
+    <br>
+    
+
+    <p id="h-line4" class="home-page" >They Are Earned.</p>
+    <br>
+    <br>
+    <div id="btn1">
+        <button id="final-entery" type="button">[Enter Kali Pahadi]</button>
+    </div>
+
+    </header>
+    <main id="main">
+        <div div-of-main> hii how are you</div>
+    </main>
+    <footer>
+        <div class="outer-div"><div class="inner-div">
+hii
+        </div></div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Pahadi - The Hidden Kingdom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="kpNavbar">
+
+        <div id="homeMenu">
+    
+            <button id="homeBtn">🏠</button>
+    
+            <div id="dropdownMenu">
+    
+                <a href="#aboutSection">About Us</a>
+    
+                <a href="#studySection">Study</a>
+    
+                <a href="#contactSection">Contact</a>
+    
+                <a href="#entertainmentSection">Entertainment</a>
+    
+            </div>
+    
+        </div>
+    
+        <div id="brand">
+    
+            <img src="assets/images/logo.png" alt="Kali Pahadi">
+    
+            <span>KALI PAHADI</span>
+    
+        </div>
+        <div id="menuToggle">
+
+            ☰
+            
+            </div>
+        <div id="navLinks">
+            <a href="#hero">Top</a>
+            <a href="#aboutSection">About</a>
+            <a href="#studySection">Study</a>
+            <a href="#contactSection">Contact</a>
+    
+        </div>
+    
+    </nav>
+    <div id="relicCounter">
+
+        🔮 Relics Found:
+        <span id="relicCount">
+            0
+        </span>/3
+    
+    </div>
+    <div id="xpBar">
+
+        <div id="xpFill"></div>
+        
+        </div>
+    <div id="achievementPopup">
+        Achievement Unlocked!
+    </div>
+    <!-- Hero / Entry Portal -->
+    <section id="hero">
+        
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>KALI PAHADI</h1>
+            <p>The Hidden Kingdom Awaits</p>
+            <button id="enterBtn">Enter the Unknown</button>
+        </div>
+        <canvas id="fog-canvas"></canvas>
+        <button id="musicBtn">
+            🔊 Sound
+            </button>
+            
+            <audio
+            id="bgMusic"
+            loop>
+            
+            <source
+            src="assets/audio/theme.mp3"
+            type="audio/mpeg">
+            
+            </audio>
+    </section>
+
+    <!-- Story Sections -->
+    <section class="story" id="beginning">
+        <div class="relic" data-relic="1">
+            ✦
+        </div>
+        <h2>The Forgotten Path</h2>
+        <p>Some places are hidden from the maps, and Kali Pahadi is one of them.</p>
+       
+    </section>
+
+    <section class="story" id="cave">
+        <div class="relic" data-relic="2">◈</div>
+        <h2>The Cave of Shadows</h2>
+        <p>Enter if you dare. Secrets are revealed only to the worthy.</p>
+        <div class="path-choice">
+            <button class="choice" data-path="forest">
+                Enter the Forest
+            </button>
+        
+            <button class="choice" data-path="cave">
+                Enter the Cave
+            </button>
+        </div>
+    </section>
+
+    <section class="story" id="throne">
+        <div class="relic" data-relic="3">⟡</div>
+        <h2>The Throne of Darkness</h2>
+        <p>The heart of Kali Pahadi beats here, unseen by the world.</p>
+        <div class="throne-core">
+
+            <div class="core-ring"></div>
+            <div class="core-ring"></div>
+        
+            <div class="core-center"></div>
+        
+        </div>
+        <div id="throneSecret">
+
+            <h3>Ancient Secret Revealed</h3>
+        
+            <p>
+                Beneath the throne lies the forgotten
+                heart of Kali Pahadi.
+            </p>
+        
+        </div>
+        <div id="spectralKing">
+
+            <div id="kingFigure"></div>
+        
+            <div id="kingDialogue">
+                <p>"Who dares awaken me?"</p>
+                <button id="respondKing">Speak</button>
+            </div>
+        </div>    
+        <div id="loreBook">
+
+            📖
+        
+        </div>
+        
+        <div id="lorePanel">
+        
+            <h2>
+                Book of Shadows
+            </h2>
+        
+            <p >
+                A place that was never in existance,
+                some people came to develop a mountain that is called kali pahadi.
+                some people sleep for 17 hours and idea was developed.
+        
+                A kingdom hidden from the world.
+        
+                During the Black Eclipse,
+                the king vanished beneath the throne.
+        
+                The gates were sealed.
+        
+                The relics were scattered.
+        
+                The mountain has waited ever since.
+        
+            </p>
+        
+        </div>
+    </section>
+
+    <!-- Footer / Hidden Keeper -->
+    <section id="keeper">
+        <div class="keeper-box">
+            <h3>The Keeper</h3>
+            <input type="text" id="userInput" placeholder="Ask the Keeper">
+<button id="askKeeper">Ask</button>
+<p id="keeperReply">...Your answer awaits.</p>
+        </div>
+    </section>
+    <section id="runeSection">
+        <div class="map-location locked"
+id="portalLock"
+data-target="portalSection"></div>
+        <h2>Ancient Rune</h2>
+        <div class="rune-circle">
+            <div class="rune-symbol">✦</div>
+        </div>
+        <input
+        type="text"
+        id="runeInput"
+        placeholder="Enter Secret Word">
+    
+        <button id="runeBtn">
+            Reveal
+        </button>
+        <p id="runeResult"></p>
+        <div id="runeParticles"></div>
+        </section>
+    <section id="shrineSection">
+
+        <h2>
+            Ancient Shrine
+        </h2>
+    
+        <div id="shrine">
+    
+            <div class="slot" id="slot1">?</div>
+    
+            <div class="slot" id="slot2">?</div>
+    
+            <div class="slot" id="slot3">?</div>
+    
+        </div>
+    
+        <button id="activateShrine">
+    
+            Activate Shrine
+    
+        </button>
+    
+    </section>
+    <section id="portalSection">
+
+        <div id="portal">
+    
+            ENTER
+            THE HIDDEN KINGDOM
+    
+        </div>
+    
+    </section>
+    <section id="secretEnding">
+
+        <h1>
+            THE HIDDEN KINGDOM AWAKENS
+        </h1>
+    
+        <p>
+            You have discovered all relics of Kali Pahadi.
+        </p>
+    
+    </section>
+    <section id="mapSection">
+
+        <h2>Map of Kali Pahadi</h2>
+    
+        <div id="worldMap">
+            <div id="mapPath"></div>
+            <div class="map-location" id="forestNode"
+            data-target="beginning">
+    
+                🌲
+                <span>Forgotten Forest</span>
+    
+            </div>
+    
+            <div class="map-location" id="caveNode"
+            data-target="cave">
+    
+                🕳️
+                <span>Shadow Cave</span>
+    
+            </div>
+    
+            <div class="map-location" id="throneNode"
+            data-target="throne">
+    
+                👑
+                <span>Dark Throne</span>
+    
+            </div>
+    
+            <div class="map-location" id="portalNode"
+            data-target="portalSection">
+    
+                🔮
+                <span>Ancient Portal</span>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <section id="aboutSection" class="futureSection">
+
+        <h2>About Kali Pahadi</h2>
+    
+        <p>Coming Soon...</p>
+    
+    </section>
+    
+    <section id="studySection" class="futureSection">
+    
+        <h2>Study Zone</h2>
+    
+        <p>Coming Soon...</p>
+    
+    </section>
+    
+    <section id="contactSection" class="futureSection">
+    
+        <h2>Contact Us</h2>
+    
+        <p>Coming Soon...</p>
+    
+    </section>
+    
+    <section id="entertainmentSection" class="futureSection">
+    
+        <h2>Entertainment Hub</h2>
+    
+        <p>Coming Soon...</p>
+    
+    </section>
+    <section id="teamSection">
+        <h2>Kali Pahadi Team</h2>
+    
+        <div id="membersContainer">
+            <!-- Existing members -->
+        </div>
+    
+        <h3>Developer</h3>
+        <div id="developer">
+            <div class="memberCard developerCard"></div>
+            <div class="memberCard">
+                <img src="assets/images/dev.jpg" alt="Developer">
+                <h4>Jane Doe</h4>
+                <p>Lead Developer & Project Creator</p>
+            </div>
+        </div>
+    
+        <button id="addMemberBtn">Add Member</button>
+    </section>
+    <div id="memberPopup">
+
+        <div id="popupContent">
+    
+            <span id="closePopup">✖</span>
+    
+            <img id="popupImage">
+    
+            <h2 id="popupName"></h2>
+    
+            <p id="popupRole"></p>
+    
+            <p id="popupDescription"></p>
+    
+        </div>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.0/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
